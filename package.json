@@ -1,5 +1,5 @@
 {
-  "name": "jsreport-pdf-password",
+  "name": "@ruanitto/jsreport-pdf-password",
   "version": "2.3.0",
   "description": "jsreport extension adding password protection to PDF reports",
   "main": "index.js",
@@ -30,7 +30,8 @@
   "author": "BJR Matos <bjrmatos@gmail.com> (https://github.com/bjrmatos)",
   "contributors": [
     "BJR Matos <bjrmatos@gmail.com> (https://github.com/bjrmatos)",
-    "Jan Blaha"
+    "Jan Blaha",
+    "Rafael Gomes <madrafael.gsilva@gmail.com> (https://github.com/ruanitto)"
   ],
   "files": [
     "lib",
@@ -51,7 +52,7 @@
     }
   },
   "dependencies": {
-    "hummus": "1.0.108",
+    "@kofile/hummus": "1.1.112",
     "object-assign": "4.1.1"
   },
   "devDependencies": {
@@ -61,7 +62,7 @@
     "eslint-plugin-babel": "4.1.2",
     "in-publish": "2.0.0",
     "jsreport-chrome-pdf": "1.7.0",
-    "jsreport-core": "2.7.1",
+    "jsreport-core": "2.10.1",
     "jsreport-phantom-pdf": "2.4.2",
     "jsreport-studio-dev": "1.5.0",
     "jsreport-templates": "2.3.2",

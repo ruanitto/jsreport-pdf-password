@@ -1,7 +1,7 @@
 var path = require('path')
 var fs = require('fs')
 var should = require('should')
-var hummus = require('hummus')
+var hummus = require('@kofile/hummus')
 var Reporter = require('jsreport-core')
 
 var tempDirectory = path.join(__dirname, '/temp')
