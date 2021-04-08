@@ -1,7 +1,7 @@
 var path = require('path')
 var fs = require('fs')
 var should = require('should')
-var hummus = require('@kofile/hummus')
+var muhammara = require('muhammara')
 var Reporter = require('jsreport-core')
 
 var tempDirectory = path.join(__dirname, '/temp')
@@ -142,7 +142,7 @@ pdfRecipesToTest.forEach(function (recipe) {
         var pdfReader
 
         fs.writeFileSync(pdfName, response.content)
-        pdfReader = hummus.createReader(pdfName, { password: '1234' })
+        pdfReader = muhammara.createReader(pdfName, { password: '1234' })
 
         should(pdfReader.getPagesCount()).be.eql(1)
         should(pdfReader.isEncrypted()).be.eql(true)
